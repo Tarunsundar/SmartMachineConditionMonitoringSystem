@@ -1,5 +1,5 @@
 # SmartMachineConditionMonitoringSystem
-This is a C/C++ program written to use Arduino Nicla sense me, microcontroller 
+This is a C++ program written to use Arduino Nicla sense me, microcontroller 
 to Monitor the condition of Industrial Machine using it's inbuilt sensors, 
 predict machine fault beforehand, alert the supervisor and also record the 
 sensor readings for fault prediction.
