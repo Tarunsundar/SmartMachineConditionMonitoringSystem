@@ -20,5 +20,9 @@ if all of the threshold values exceed, it predicts a fault in the machine does t
 of the fault predicted and parallely keeps on storing the sensor readings in a CSV file, 
 which later can be used in troubleshooting the machine fault.
 
-
+For fault analysis, the Arduino Sketch provides you with two choices, you could either connect the arduino with a SD Card, so that it can work indenpendtly and when the fault analysis is to be done,
+the peron troubleshooting could just disconnect the SDCard and connect it with a computer, to view the sensor readings 
+of the machine at fault.
+Similarly they can even connect the arduino with a computer, but this requires some extra work to be done and some technical knowledge for the person scraping the data, this is a manual methodology, which requires a person to run the python script
+attached with the arduino sketch, running this script would store the sensor readings to a CSV file in the working directory.
 
